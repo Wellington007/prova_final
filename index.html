@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prova Final</title>
+	<link rel="style" href="css/style.css">
+</head>
+<body>
+
+<form id="reminder_form" action="">
+        <label for="reminder">
+           <p>Reminder</p>
+            <input type="text" required id="reminder">
+        </label>
+   
+        <div>
+        <label for="reminder">
+           <p>Date</p>
+            <input type="date" required id="date">
+           <p>Time</p>
+            <input type="time" required id="time">
+        </label>
+          <input type="submit" value="Add"> 
+        </div>
+        </label>
+        
+         
+</form>
+    <legend>Reminders</legend>
+    <ul id="list-reminder"></ul>
+
+<script src="js/list-reminder.js"></script>
+<script src="js/htmlreminder.js"></script>
+<script src="js/reminderController.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+#list-reminders dd {
+    float: right;
+    margin-top: -20px;
+    margin-right: 25px;
+}
+.labels {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.form-group {
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.inputs {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.input-reminder {
+    width: 300px;
+}
+.input-date {
+    width: 60px;
+}
+
+.input-time {
+    width: 60px;
+}
+
+.button {
+    padding: 5px;
+    width: 60px;
+}
